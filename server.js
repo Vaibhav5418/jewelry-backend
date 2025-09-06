@@ -30,7 +30,7 @@ connectDB();
 app.use(helmet());
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://yourdomain.com'] 
+    ? ['https://frontend-jewelry-6v480jluy-vaibhav-sonis-projects-830e28a2.vercel.app'] 
     : ['http://localhost:3000', 'http://localhost:5173'],
   credentials: true
 }));
